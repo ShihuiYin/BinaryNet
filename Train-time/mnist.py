@@ -39,7 +39,7 @@ if __name__ == "__main__":
     print("epsilon = "+str(epsilon))
     
     # MLP parameters
-    num_units = 4096
+    num_units = 512
     print("num_units = "+str(num_units))
     n_hidden_layers = 3
     print("n_hidden_layers = "+str(n_hidden_layers))
@@ -49,9 +49,9 @@ if __name__ == "__main__":
     print("num_epochs = "+str(num_epochs))
     
     # Dropout parameters
-    dropout_in = .2 # 0. means no dropout
+    dropout_in = .1 # 0. means no dropout
     print("dropout_in = "+str(dropout_in))
-    dropout_hidden = .5
+    dropout_hidden = .05
     print("dropout_hidden = "+str(dropout_hidden))
     
     # BinaryOut
